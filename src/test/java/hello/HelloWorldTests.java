@@ -20,9 +20,7 @@ public class HelloWorldTests {
 		System.setOut(ps);
 	}
 
-//testdsf
-//test
-	//tesfsdf//testsadfsd
+
 
 	@Test
 	public void shouldPrintTimeToConsole() {
