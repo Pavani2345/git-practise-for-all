@@ -20,6 +20,9 @@ public class HelloWorldTests {
 		System.setOut(ps);
 	}
 
+
+
+
 	@Test
 	public void shouldPrintTimeToConsole() {
 		HelloWorld.main(new String[] { });
