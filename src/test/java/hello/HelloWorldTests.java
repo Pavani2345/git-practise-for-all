@@ -33,7 +33,7 @@ public class HelloWorldTests {
 
 		assertThat(output(), containsString("Hello world!"));
 	}
-
+//Trigger
 	private String output() {
 		return new String(baos.toByteArray(), StandardCharsets.UTF_8);
 	}
