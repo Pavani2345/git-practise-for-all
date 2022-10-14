@@ -20,12 +20,15 @@ public class HelloWorldTests {
 		System.setOut(ps);
 	}
 
+
 	@Test
 	public void shouldPrintTimeToConsole() {
 		HelloWorld.main(new String[] { });
 
 		assertThat(output(), containsString("The current local time is"));
 	}
+	//
+
 
 	@Test
 	public void shouldPrintHelloWorldToConsole() {
@@ -33,7 +36,7 @@ public class HelloWorldTests {
 
 		assertThat(output(), containsString("Hello world!"));
 	}
-//Trigger
+
 	private String output() {
 		return new String(baos.toByteArray(), StandardCharsets.UTF_8);
 	}
