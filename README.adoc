@@ -340,10 +340,4 @@ them in your production build file.
 
 Congratulations! You have now created a simple yet effective Gradle build file for building Java projects.
 
-== See Also
 
-The following guide may also be helpful:
-
-* https://spring.io/guides/gs/maven/[Building Java Projects with Maven]
-
-include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/main/footer.adoc[]
