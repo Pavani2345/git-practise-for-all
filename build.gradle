@@ -11,6 +11,7 @@ repositories {
 // end::repositories[]
 
 // tag::jar[]
+
 jar {
     archiveBaseName = 'gradle-demo-1'
     archiveVersion =  '0.1.0'
@@ -24,6 +25,9 @@ targetCompatibility = 1.8
 dependencies {
     implementation "joda-time:joda-time:2.2"
     testImplementation "junit:junit:4.12"
+    // https://mvnrepository.com/artifact/org.scalatest/scalatest-shouldmatchers
+    testImplementation group: 'org.scalatest', name: 'scalatest-shouldmatchers_2.13', version: '3.3.0-SNAP3'
+
 }
 // end::dependencies[]
 
