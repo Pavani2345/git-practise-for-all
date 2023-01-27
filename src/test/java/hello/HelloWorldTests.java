@@ -1,5 +1,6 @@
 package hello;
 
+
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 import java.nio.charset.StandardCharsets;
@@ -22,6 +23,8 @@ public class HelloWorldTests {
 	}
 
 
+	
+	
 	@Test
 	public void shouldPrintTimeToConsole() {
 		HelloWorld.main(new String[] { });
